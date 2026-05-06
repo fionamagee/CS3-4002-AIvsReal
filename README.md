@@ -1,5 +1,5 @@
 # AI-Generated Image Detection Case Study
-A DS 4002 Case Study by Group 10: Fiona Magee
+A DS 4002 Case Study by Fiona Magee
 ## Hook and Rubric Documents
 The hook document outlining the case study is the file labeled __[CS3Hook_AIvsReal.pdf](https://github.com/fionamagee/CS3-DS4002-AIvsReal/blob/main/CS3Hook_AIvsReal.pdf)__. The rubric __[CS3Rubric_AIvsReal.pdf](https://github.com/fionamagee/CS3-DS4002-AIvsReal/blob/main/CS3Rubric_AIvsReal.pdf)__ outlines the formatting, submission requirements, and final deliverables for this assignment. Both documents should be referenced continously throughout your completion of the case study to guarantee success on the assignment.
 ## Data
