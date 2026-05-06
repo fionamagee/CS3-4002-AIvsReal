@@ -1,18 +1,10 @@
-# CS3-DS4002
-
-This repository contains the case study, deliverable, data, and reference materials necessary to complete the Case Study on detecting AI-generated images.
-
-## Important Information
-The two attached PDFs include both the **Prompt and Deliverable** for the case study as well as a **Rubric** to follow in order to meet all requirements successfully.
-
+# AI-Generated Image Detection Case Study
+A DS 4002 Case Study by Group 10: Brandon Yuan, Fiona Magee, Thomas Warren
+## Hook and Rubric Documents
+The hook document outlining the case study is the file labeled __[CS3Hook_AIvsReal.pdf](https://github.com/fionamagee/CS3-DS4002-AIvsReal/blob/main/CS3Hook_AIvsReal.pdf)__. The rubric __[CS3Rubric_AIvsReal.pdf](https://github.com/fionamagee/CS3-DS4002-AIvsReal/blob/main/CS3Rubric_AIvsReal.pdf)__ outlines the formatting, submission requirements, and final deliverables for this assignment. Both documents should be referenced continously throughout your completion of the case study to guarantee success on the assignment.
 ## Data
-The necessary data is located in the `DATA` folder. This case study uses the **Defactify Image Dataset**, a publicly available collection of real and AI-generated images hosted on Hugging Face. Because the full dataset (~96,000 images) is too large to host on GitHub, the `DATA` folder contains:
-- A small sample subset (`sample_images/`) so students can verify their pipeline works before downloading the full dataset.
-- A loader script (`download_dataset.py`) that pulls the full dataset from Hugging Face.
-- A data dictionary (`data_dictionary.md`) describing the columns and labels.
-
+The image data can be obtained from the Defactify Image Dataset hosted on Hugging Face, linked __[here](https://huggingface.co/datasets/Rajarshi-Roy-research/Defactify_Image_Dataset)__. The dataset contains roughly 96,000 images organized into "caption families" of six: one real photograph (drawn from MS COCO) paired with five AI-generated images that share the real image's caption, produced by Stable Diffusion 2.1, SDXL, SD3, DALL·E 3, and Midjourney. Additionally, you can find the data appendix __[here](https://github.com/fionamagee/CS3-DS4002-AIvsReal/blob/main/DATA/Data_Appendix.pdf)__, which describes the variables (Caption, Image, Label_A, Label_B), summary statistics, and class balance you will need to account for during modeling.
 ## Reference Materials
-The `Reference Materials` folder contains helpful resources organized into three subfolders:
-- **Context** — articles on why AI-image detection matters (misinformation, deepfakes, the limits of human detection).
-- **Data context** — documentation about the Defactify dataset and the generative models that produced the images.
-- **Technical** — guides on CNNs, Vision Transformers, transfer learning, and ensembling for image classification.
+Roy, R., Imanpour, N., Aziz, A., Bajpai, S., Singh, G., Biswas, S., et al. (2026). A Comprehensive Dataset for Human vs. AI Generated Image Detection. arXiv. __https://arxiv.org/abs/2601.00553__
+
+Morgan, P. (2025). New research suggests folks are relying on outdated visual cues to identify AI-generated faces. PC Gamer. __https://www.pcgamer.com/software/ai/new-research-suggests-folks-are-relying-on-outdated-visual-cues-to-identify-ai-generated-faces-but-i-did-get-14-20-on-the-test/__
